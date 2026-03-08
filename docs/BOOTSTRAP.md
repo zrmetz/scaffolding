@@ -218,14 +218,14 @@ Edit `.github/workflows/ci.yml` and uncomment these steps:
 
 ## Bootstrap Completion Checklist
 
-- [ ] Bootstrap completed on: [DATE]
-- [ ] Project type: [TYPE]
-- [ ] Git initialized and pushed to GitHub: Yes/No
-- [ ] GitHub repo URL: [URL]
-- [ ] All quality scripts working: Yes/No
-- [ ] Pre-commit hooks blocking bad commits: Yes/No
-- [ ] CI workflow checks enabled in `.github/workflows/ci.yml`: Yes/No
-- [ ] First "all checks pass" commit pushed: Yes/No
+- [x] Bootstrap completed on: 2026-03-08
+- [x] Project type: Template / Scaffolding
+- [x] Git initialized and pushed to GitHub: Yes
+- [x] GitHub repo URL: https://github.com/zrmetz/scaffolding
+- [x] All quality scripts working: Yes
+- [x] Pre-commit hooks blocking bad commits: Yes
+- [x] CI workflow checks enabled in `.github/workflows/ci.yml`: Yes
+- [ ] First "all checks pass" commit pushed: No
 
 ---
 

@@ -26,15 +26,14 @@ jobs:
       - name: Check file lengths
         run: npm run check:file-length
 
-      # Uncomment these after adding source code:
-      # - name: Type check
-      #   run: npm run typecheck
-      #
-      # - name: Lint
-      #   run: npm run lint
-      #
-      # - name: Run tests
-      #   run: npm test
+      - name: Type check
+        run: npm run typecheck
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Run tests
+        run: npm test
 
   # Uncomment for web apps with E2E tests
   # e2e:
