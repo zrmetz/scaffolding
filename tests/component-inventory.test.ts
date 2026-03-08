@@ -60,7 +60,7 @@ describe('Component Inventory', () => {
     const inventoryPaths = inventory.components.map((c: { path: string }) => c.path);
 
     for (const file of componentFiles) {
-      const isInInventory = inventoryPaths.includes(file);
+      const isInInventory = inventoryPaths.includes(file.replace(/\\/g, '/'));
       expect(
         isInInventory,
         `Component not in inventory: ${file}\nAdd it to tests/component-inventory.json`
