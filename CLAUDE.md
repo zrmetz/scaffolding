@@ -138,14 +138,13 @@ npm test
 
 ## Project Summary
 
-<!-- Fill this in after bootstrap -->
-[Describe the project purpose and key functionality here]
+Reusable project scaffolding template with quality gates, drift detection, and Claude-specific workflow rules baked in from the start.
 
-**Type:** [Web App / API / CLI / Library / Desktop / Script]
+**Type:** Template / Scaffolding
 
-**Key Features:** [Feature 1] | [Feature 2] | [Feature 3]
+**Key Features:** Pre-commit hooks | Inventory drift detection | 300-line file limit enforcement
 
-**Stack:** [List primary technologies, frameworks, and tools]
+**Stack:** TypeScript, Vitest, ESLint, Husky, GitHub Actions
 
 ---
 
